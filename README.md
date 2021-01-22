@@ -3,15 +3,15 @@
 <h1 align="center">BITCOIN-TELEGRAM-BOT</h1>
 
 <p align="center">
-  <a href="https://github.com/tomassirio/bitcoinTelegram/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/tomassirio/bitcoinTelegram"></a>
-  <a href="https://github.com/tomassirio/bitcoinTelegram/issues"><img src="https://img.shields.io/github/issues/tomassirio/bitcoinTelegram"></a>
-  <a href="https://github.com/tomassirio/bitcoinTelegram/network/members"><img src="https://img.shields.io/github/forks/tomassirio/bitcoinTelegram"></a>
-  <a href="https://img.shields.io/github/stars/tomassirio/bitcoinTelegram"><img src="https://img.shields.io/github/stars/tomassirio/bitcoinTelegram"></a>
+  <a href="https://github.com/tomassirio/bitcoinTelegramBot/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/tomassirio/bitcoinTelegramBot"></a>
+  <a href="https://github.com/tomassirio/bitcoinTelegramBot/issues"><img src="https://img.shields.io/github/issues/tomassirio/bitcoinTelegramBot"></a>
+  <a href="https://github.com/tomassirio/bitcoinTelegramBot/network/members"><img src="https://img.shields.io/github/forks/tomassirio/bitcoinTelegram"></a>
+  <a href="https://img.shields.io/github/stars/tomassirio/bitcoinTelegramBot"><img src="https://img.shields.io/github/stars/tomassirio/bitcoinTelegbitcoinTelegramBotram"></a>
 </p>
 
 BitcoinTelegram is a simple Telegram Bot to consult BTC's price over Telegram. It's written in Golang with Telebot's Framework
 
-![image](https://miro.medium.com/max/8512/0*1YAdWi5ruRiSQDas)
+<!-- ![image](https://miro.medium.com/max/8512/0*1YAdWi5ruRiSQDas) -->
 
 <!-- ## :tada: Inspiration
 
@@ -94,7 +94,7 @@ To connect on:
 
 ## :bust_in_silhouette: Who Am I?
 
-<img src="https://media.discordapp.net/attachments/763140054825697301/763681938652528690/logo-design-branding-logo-tool-open-electronic-1-5f7ed02bc8247.png?width=468&height=468" width="410" height="410" /></p>
+<img src="https://media.discordapp.net/attachments/763140054825697301/763681938652528690/logo-design-branding-logo-tool-open-electronic-1-5f7ed02bc8247.png?width=468&height=468" width="460" height="460" /></p>
 
   <a href="mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!">
       <img src="https://cdn2.downdetector.com/static/uploads/logo/image21.png" width="100"; height="100"/>
