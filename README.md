@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.pixabay.com/photo/2019/11/07/20/24/check-list-4609829_960_720.png" width="100" height="100" /></p>
+<p align="center"><img src="https://i.imgur.com/a1H1sQa.png" width="100" height="100" /></p>
 
 <h1 align="center">BITCOIN-TELEGRAM-BOT</h1>
 
