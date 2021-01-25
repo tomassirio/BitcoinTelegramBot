@@ -3,7 +3,7 @@
 <h1 align="center">BITCOIN-TELEGRAM-BOT</h1>
 
 <p align="center">
-  <a href="https://github.com/tomassirio/bitcoinTelegramBot/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/tomassirio/bitcoinTelegramBot"></a>
+  <a href="https://github.com/tomassirio/bitcoinTelegramBot/graphs/contributors"><img src="	https://img.shields.io/github/issues/tomassirio/BitcoinTelegramBot"></a>
   <a href="https://github.com/tomassirio/bitcoinTelegramBot/issues"><img src="https://img.shields.io/github/issues/tomassirio/bitcoinTelegramBot"></a>
   <a href="https://github.com/tomassirio/bitcoinTelegramBot/network/members"><img src="https://img.shields.io/github/forks/tomassirio/bitcoinTelegram"></a>
   <a href="https://img.shields.io/github/stars/tomassirio/bitcoinTelegramBot"><img src="https://img.shields.io/github/stars/tomassirio/bitcoinTelegbitcoinTelegramBotram"></a>
@@ -13,19 +13,46 @@ BitcoinTelegram is a simple Telegram Bot to consult BTC's price over Telegram. I
 
 <!-- ![image](https://miro.medium.com/max/8512/0*1YAdWi5ruRiSQDas) -->
 
-<!-- ## :tada: Inspiration
+## :tada: Inspiration
 
-![image](https://greatpeopleinside.com/wp-content/uploads/2017/09/inspiration-at-work.jpeg)
+Over the last couple of months I grew fond of Golang, Telegram and Bitcoin. So I decided to combine those three elements to create something that could get a little bit of each world. Hence, Bitcoin-Telegram-Bot (in Golang) was created
 
-A couple of friends and me wanted to keep track of the movies
-we wanted to watch on our discord server,
-so I created ListBot to do that.
+## What you will need:
 
-## :white_check_mark: Add ListBot to your Discord Server
+- You are going to need a computer or server where to host the bot.
+- Git
+- Golang v1.13
+- A device with Telegram
 
-By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot), you can authorize ListBot to be used in your server.
+## Installation
 
-You can also check out our Discord server in which we discuss what we can add to the bot, possible bug fixes, we sometimes have fun and something else in [here](https://discord.io/listbot).
+Open a Terminal and copy these commands (Linux & Mac devices):
+
+```bash
+cd ~
+git clone https://github.com/tomassirio/BitcoinTelegramBot.git
+cd ./BitcoinTelegramBot
+mv .env.example .env
+go get github.com/tomassirio/bitcoinTelegram
+go run main.go
+```
+
+##### Warning: 
+This won't work unless you replace the **REPLACE_WITH_TOKEN** on the .env file with the Token granted by @BotFather
+
+## :white_check_mark: Add BTB to your Telegram Channel
+
+Open [@BotFather](https://telegram.me/botfather) on telegram and create a new bot with it's __/newbot__ command.
+
+Assign it a name. This name won't be the one that is shown on each message, so you can name it whatever you want.
+
+@BotFather will grant you a Token. This token is the one that will replace the **REPLACE_WITH_TOKEN** on the .env.example file on this repository. (Don't forget to rename that file to .env)
+
+You can also play a little bit more with @BotFather. For example you can use the __/setcommands__ to define the uses your bot has on the '/' icon:
+
+```
+price - Gets BTC actual price
+```
 
 ## :battery: Usage
 
