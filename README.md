@@ -17,14 +17,16 @@ BitcoinTelegram is a simple Telegram Bot to consult BTC's price over Telegram. I
 
 Over the last couple of months I grew fond of Golang, Telegram and Bitcoin. So I decided to combine those three elements to create something that could get a little bit of each world. Hence, Bitcoin-Telegram-Bot (in Golang) was created
 
-## What you will need:
+## :star: Getting started
+
+### What you will need:
 
 - You are going to need a computer or server where to host the bot.
 - Git
 - Golang v1.13
 - A device with Telegram
 
-## Installation
+### :computer: Installation
 
 Open a Terminal and copy these commands (Linux & Mac devices):
 
@@ -40,7 +42,7 @@ go run main.go
 ##### Warning: 
 This won't work unless you replace the **REPLACE_WITH_TOKEN** on the .env file with the Token granted by @BotFather
 
-## :white_check_mark: Add BTB to your Telegram Channel
+### :white_check_mark: Add BTB to your Telegram Channel
 
 Open [@BotFather](https://telegram.me/botfather) on telegram and create a new bot with it's __/newbot__ command.
 
@@ -56,59 +58,20 @@ price - Gets BTC actual price
 
 ## :battery: Usage
 
-Once the bot is running and connected to your Discord channel and database
-you can use the following commands:
+Once the bot is running and added to your Telegram Group, you can use any of the following commands:
 
 ```sh
-    * $add <component>: adds a component to the list
-    * $multi-add <element> <element> - adds mutiple elements \in a list
-    * $help: shows you a message with the available commands
-    * $list: lists all the components \in the channel\'s list
-    * $log: a log of the versions
-    * $poll <active_time_in_minutes>: creates a poll on 5 random items of the list. If attribute is not supplied the poll has no limitation of time.
-    * $random: gives you a random component from the list
-    * $remove <component>: removes the desired component
-    * $multi-remove <element> <element> - removes multiple elements \in a list
-    * $remind <time_in_minutes> <component>: adds a component to the list and reminds you of it in n minutes
+    * /price : Get's bitcoin's Last price
+    # * $multi-add <element> <element> - adds mutiple elements \in a list
+    # * $help: shows you a message with the available commands
+    # * $list: lists all the components \in the channel\'s list
+    # * $log: a log of the versions
+    # * $poll <active_time_in_minutes>: creates a poll on 5 random items of the list. If attribute is not supplied the poll has no limitation of time.
+    # * $random: gives you a random component from the list
+    # * $remove <component>: removes the desired component
+    # * $multi-remove <element> <element> - removes multiple elements \in a list
+    # * $remind <time_in_minutes> <component>: adds a component to the list and reminds you of it in n minutes
 ```
-
-## :star: Getting started
-
-### :computer: Installation
-
-Learn how to create a Discord bot and get a valid token [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
-
-### :floppy_disk: To get started locally, follow these instructions:
-
-1.  Clone to your local computer using `git`.
-2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
-3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
-4.  Create a copy of the `.env.example` file named `.env` found in `./src/config/.env.example` and replace the placeholders with your bot token and MongoDB credentials
-5.  Run `npm install` to install all dependencies
-6.  Run `npm run dev` to start your server as `development` environment or `npm run start` for `production`
-
-### :ship: Docker
-
-For development, you can run ListBot using Docker and Docker Compose following these steps below:
-
--   Adjust `.env` with your bot token
--   Run `docker-composer up -d`. This will build all containers on the first run and will be placed in the background
--   If you want to see the logs, just type `docker-compose logs -f` or read all in **Portainer**
--   If you want to stop, run `docker-compose down`
-
-The docker-compose.yml file contains:
-
--   **Mongo-express**: \*For database manager\*\*
--   **Mongo**: _The database itself_
--   **Server**: _ListBot_
--   **Portainer**: _To monitor your container services, such as logs, restarts and more._
-    -   _You need to create a local user and password_
-    -   _Next page you need to choose docker local environment and after that click connect_
-
-To connect on:
-
--   Portainer: **_localhost:9000_**
--   Mongo-express: **_localhost: 8081_**
 
 ## :building_construction: Contribution Guidelines:
 
