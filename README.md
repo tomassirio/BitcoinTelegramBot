@@ -11,7 +11,26 @@
 
 BitcoinTelegram is a simple Telegram Bot to consult BTC's price over Telegram. It's written in Golang with Telebot's Framework
 
-<!-- ![image](https://miro.medium.com/max/8512/0*1YAdWi5ruRiSQDas) -->
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#inspiration">Inspiration</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#what-you-will-need">What you will need</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#add-btb-to-your-telegram-channel">Add BTB to your Telegram Channel</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contribution-guidelines">Contribution Guidelines</a></li>
+    <li><a href="#who-am-i">Who Am I?</a></li>
+  </ol>
+</details>
 
 ## :tada: Inspiration
 
