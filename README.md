@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="https://github.com/tomassirio/bitcoinTelegramBot/graphs/contributors"><img src="	https://img.shields.io/github/issues/tomassirio/BitcoinTelegramBot"></a>
-  <a href="https://github.com/tomassirio/bitcoinTelegramBot/issues"><img src="https://img.shields.io/github/issues/tomassirio/bitcoinTelegramBot"></a>
-  <a href="https://github.com/tomassirio/bitcoinTelegramBot/network/members"><img src="https://img.shields.io/github/forks/tomassirio/bitcoinTelegram"></a>
-  <a href="https://img.shields.io/github/stars/tomassirio/bitcoinTelegramBot"><img src="https://img.shields.io/github/stars/tomassirio/bitcoinTelegbitcoinTelegramBotram"></a>
+  <a href="https://github.com/tomassirio/BitcoinTelegramBot/blob/master/LICENSE"><img src="https://img.shields.io/github/license/tomassirio/BitcoinTelegramBot"></a>
+  <a href="https://github.com/tomassirio/bitcoinTelegramBot/network/members"><img src="https://img.shields.io/github/forks/tomassirio/BitcoinTelegramBot"></a>
+  <a href="https://img.shields.io/github/stars/tomassirio/bitcoinTelegramBot"><img src="https://img.shields.io/github/stars/tomassirio/BitcoinTelegramBot"></a>
 </p>
 
 BitcoinTelegram is a simple Telegram Bot to consult BTC's price over Telegram. It's written in Golang with Telebot's Framework
