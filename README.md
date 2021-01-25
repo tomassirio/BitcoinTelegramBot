@@ -50,11 +50,15 @@ Assign it a name. This name won't be the one that is shown on each message, so y
 
 @BotFather will grant you a Token. This token is the one that will replace the **REPLACE_WITH_TOKEN** on the .env.example file on this repository. (Don't forget to rename that file to .env)
 
+![image](https://i.imgur.com/RC8anHA.png)
+
 You can also play a little bit more with @BotFather. For example you can use the __/setcommands__ to define the uses your bot has on the '/' icon:
 
 ```
 price - Gets BTC actual price
 ```
+
+![image](https://i.imgur.com/qff7KzW.png)
 
 ## :battery: Usage
 
@@ -62,15 +66,6 @@ Once the bot is running and added to your Telegram Group, you can use any of the
 
 ```sh
     * /price : Get's bitcoin's Last price
-    # * $multi-add <element> <element> - adds mutiple elements \in a list
-    # * $help: shows you a message with the available commands
-    # * $list: lists all the components \in the channel\'s list
-    # * $log: a log of the versions
-    # * $poll <active_time_in_minutes>: creates a poll on 5 random items of the list. If attribute is not supplied the poll has no limitation of time.
-    # * $random: gives you a random component from the list
-    # * $remove <component>: removes the desired component
-    # * $multi-remove <element> <element> - removes multiple elements \in a list
-    # * $remind <time_in_minutes> <component>: adds a component to the list and reminds you of it in n minutes
 ```
 
 ## :building_construction: Contribution Guidelines:
