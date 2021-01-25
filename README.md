@@ -16,19 +16,19 @@ BitcoinTelegram is a simple Telegram Bot to consult BTC's price over Telegram. I
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#inspiration">Inspiration</a>
+      <a href="#tada-inspiration">Inspiration</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#star-getting-started">Getting Started</a>
       <ul>
         <li><a href="#what-you-will-need">What you will need</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#add-btb-to-your-telegram-channel">Add BTB to your Telegram Channel</a></li>
+        <li><a href="#computer-installation">Installation</a></li>
+        <li><a href="#white_check_mark-add-btb-to-your-telegram-channel">Add BTB to your Telegram Channel</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contribution-guidelines">Contribution Guidelines</a></li>
-    <li><a href="#who-am-i">Who Am I?</a></li>
+    <li><a href="#battery-usage">Usage</a></li>
+    <li><a href="#building_construction-contribution-guidelines">Contribution Guidelines</a></li>
+    <li><a href="bust_in_silhouette-#who-am-i">Who Am I?</a></li>
   </ol>
 </details>
 
