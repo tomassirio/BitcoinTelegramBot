@@ -106,8 +106,8 @@ Once the bot is running and added to your Telegram Group, you can use any of the
   <a href="https://www.linkedin.com/in/tomassirio/">
       <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F174%2F174857.png&f=1&nofb=1" width="100"; height="100"/>
   </a>
-  <a href="https://discord.io/siriobots">
-      <img src="https://www.net-aware.org.uk/siteassets/images-and-icons/application-icons/app-icons-discord.png?w=585&scale=down" width="100"; height="100"/>
+  <a href="https://dev.to/tomassirio">
+      <img src="https://avatars3.githubusercontent.com/u/13521919?s=280&v=4" width="100"; height="100"/>
   </a>
   <a href="https://www.buymeacoffee.com/tomassirio1">
       <img src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg" width="100"; height="100"/>
