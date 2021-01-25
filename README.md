@@ -28,7 +28,7 @@ BitcoinTelegram is a simple Telegram Bot to consult BTC's price over Telegram. I
     </li>
     <li><a href="#battery-usage">Usage</a></li>
     <li><a href="#building_construction-contribution-guidelines">Contribution Guidelines</a></li>
-    <li><a href="bust_in_silhouette-#who-am-i">Who Am I?</a></li>
+    <li><a href="bust_in_silhouette-who-am-i">Who Am I?</a></li>
   </ol>
 </details>
 
