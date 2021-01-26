@@ -1,6 +1,15 @@
 <p align="center"><img src="https://i.imgur.com/a1H1sQa.png"/></p>
 
-<h1 align="center">BITCOIN-TELEGRAM-BOT</h1>
+<p align="center">
+  <h1 align="center">BITCOIN-TELEGRAM-BOT</h1>
+  <p align="center">
+    ·
+    <a href="https://github.com/tomassirio/bitcoinTelegramBot/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/tomassirio/bitcoinTelegramBot/issues">Request Feature</a>
+    ·
+  </p>
+</p>
 
 <p align="center">
   <a href="https://github.com/tomassirio/bitcoinTelegramBot/graphs/contributors"><img src="	https://img.shields.io/github/issues/tomassirio/BitcoinTelegramBot"></a>
