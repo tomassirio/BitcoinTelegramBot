@@ -6,6 +6,6 @@ func GetHistoric() (float32, error) {
 	p, err := utils.GetApiCall()
 	l := p.Last
 	o := p.Open
-	his := (l - o) / o
+	his := ((l - o) / o) * 100
 	return his, err
 }
