@@ -1,10 +1,12 @@
 package commands
 
 import (
+	"fmt"
+
 	"github.com/tomassirio/bitcoinTelegram/utils"
 )
 
-func GetPrice() (float32, error) {
+func GetPrice() (string, error) {
 	p, err := utils.GetApiCall()
-	return p.Last, err
+	return fmt.Sprintf("%.2f", p.Last), err
 }
