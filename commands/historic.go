@@ -1,11 +1,15 @@
 package commands
 
-import "github.com/tomassirio/bitcoinTelegram/utils"
+import (
+	"math"
+
+	"github.com/tomassirio/bitcoinTelegram/utils"
+)
 
 func GetHistoric() (float32, error) {
 	p, err := utils.GetApiCall()
 	l := p.Last
 	o := p.Open
-	his := ((l - o) / o) * 100
+	his := float32(math.Round(float64((l-o)/o) * 100))
 	return his, err
 }
