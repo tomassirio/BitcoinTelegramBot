@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+
 	b, err := tb.NewBot(tb.Settings{
 		// You can also set custom API URL.
 		// If field is empty it equals to "https://api.telegram.org".
@@ -25,6 +26,7 @@ func main() {
 
 	for k, v := range handler.LoadHandler(b) {
 		b.Handle(k, v)
+		log.Println(k + "✅ Loaded!")
 	}
 
 	b.Start()
