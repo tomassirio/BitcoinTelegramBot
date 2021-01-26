@@ -1,19 +1,10 @@
 package commands
 
 import (
-	"encoding/json"
-	"net/http"
-
-	"github.com/tomassirio/bitcoinTelegram/model"
+	"github.com/tomassirio/bitcoinTelegram/utils"
 )
 
 func GetPrice() (float32, error) {
-	resp, err := http.Get("https://bitex.la/api-v1/rest/btc_usd/market/ticker")
-	p := &model.Price{}
-	if err != nil {
-		return 0.0, err
-	}
-
-	err = json.NewDecoder(resp.Body).Decode(p)
+	p, err := utils.GetApiCall()
 	return p.Last, err
 }
