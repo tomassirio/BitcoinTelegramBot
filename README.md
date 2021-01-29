@@ -84,9 +84,11 @@ You can also play a little bit more with @BotFather. For example you can use the
 
 ```
 price - Gets BTC actual price
+historic - Gets a percentage between Today's and Yesterday's price
+summary - Gets both the price and historic values
 ```
 
-![image](https://i.imgur.com/qff7KzW.png)
+![image](https://i.imgur.com/ACmSAF1.png)
 
 ## :battery: Usage
 
@@ -94,6 +96,8 @@ Once the bot is running and added to your Telegram Group, you can use any of the
 
 ```sh
     * /price : Get's bitcoin's Last price
+    * /historic : Gets a percentage between Today's and Yesterday's price
+    * /summary : Gets both the price and historic values
 ```
 
 ## :building_construction: Contribution Guidelines:
