@@ -14,8 +14,9 @@ func LoadHandler(b *tb.Bot) map[string]func(m *tb.Message) {
 	}
 
 	commandMap["/historic"] = func(m *tb.Message) {
-		res, _ := commands.GetHistoric()
+		res, g, _ := commands.GetHistoric()
 		b.Send(m.Chat, "BTC's Price compared to yesterday is: "+res)
+		b.Send(m.Chat, g)
 	}
 
 	return commandMap
